@@ -1,0 +1,15 @@
+<article class="publication-card">
+  <div class="pub-year">{{ include.pub.year }}</div>
+  <div class="pub-body">
+    <h3>{{ include.pub.title }}</h3>
+    <p class="pub-authors">{{ include.pub.authors_html }}</p>
+    <p class="pub-venue"><strong>{{ include.pub.venue }}</strong>{% if include.pub.volume_issue_pages and include.pub.volume_issue_pages != '' %}, {{ include.pub.volume_issue_pages }}{% endif %}.</p>
+    <div class="pub-links">
+      {% if include.pub.links.paper and include.pub.links.paper != '' %}<a href="{{ include.pub.links.paper }}">Paper</a>{% endif %}
+      {% if include.pub.links.doi and include.pub.links.doi != '' %}<a href="{{ include.pub.links.doi }}">DOI</a>{% endif %}
+      {% if include.pub.links.code and include.pub.links.code != '' %}<a href="{{ include.pub.links.code }}">Code</a>{% endif %}
+      {% if include.pub.links.project and include.pub.links.project != '' %}<a href="{{ include.pub.links.project }}">Project</a>{% endif %}
+      <a href="https://scholar.google.com/scholar?q={{ include.pub.title | uri_escape }}" target="_blank" rel="noopener">Scholar ↗</a>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,28 @@
+- id: scale-aware-rgbt-tracking
+  selected: true
+  title: "Scale-Aware Attention and Multi-Modal Prompt Learning With Fusion Adapter for RGBT Tracking"
+  authors_html: "<strong>Xiang Liu</strong>, Haiyan Li*, Victor Sheng, Yujun Ma, Xiaoguo Liang, Guanbo Wang"
+  venue: "IEEE Transactions on Multimedia"
+  year: "2026"
+  volume_issue_pages: "28: 344–359"
+  links:
+    paper: ""
+    doi: ""
+    code: ""
+    project: ""
+
+- id: cross-modal-tracking
+  selected: true
+  title: "Cross-Modal Deep Interaction and Modal-Aware Aggregation Network for Visible and Infrared Tracking"
+  authors_html: "<strong>Xiang Liu</strong>, Haiyan Li*, Victor Sheng, Yujun Ma, Xiaoguo Liang, Guanbo Wang"
+  venue: "Applied Soft Computing"
+  year: "2025"
+  volume_issue_pages: "184: 113719"
+  links:
+    paper: ""
+    doi: ""
+    code: ""
+    project: ""
+
+# Add new papers by copying one block above.
+# Set selected: true to show a paper on the home page.

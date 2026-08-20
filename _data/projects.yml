@@ -1,0 +1,9 @@
+- title: "RGB-T Object Tracking"
+  period: "Ongoing"
+  description: "Research on robust visible-thermal object tracking under modality degradation, cross-modal conflict, and challenging imaging conditions."
+  link: ""
+
+- title: "Multimodal Visual Tracking"
+  period: "Ongoing"
+  description: "Exploration of multimodal representation learning for RGB-T, RGB-Event, and vision-language tracking."
+  link: ""

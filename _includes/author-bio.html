@@ -1,0 +1,18 @@
+<div class="author-card">
+  {% if site.data.profile.avatar and site.data.profile.avatar != '' %}
+    <img class="author-avatar" src="{{ site.data.profile.avatar | relative_url }}" alt="{{ site.data.profile.name_en }}">
+  {% else %}
+    <div class="author-avatar initials" aria-label="Profile image placeholder">XL</div>
+  {% endif %}
+
+  <h2 class="author-name">{{ site.data.profile.name_en }}</h2>
+  <p class="author-role">{{ site.data.profile.position_en }}</p>
+  <p class="author-affiliation">{{ site.data.profile.affiliation_en }}</p>
+
+  <div class="author-links">
+    {% if site.data.profile.email and site.data.profile.email != '' %}<a href="mailto:{{ site.data.profile.email }}">Email</a>{% endif %}
+    {% if site.data.profile.scholar and site.data.profile.scholar != '' %}<a href="{{ site.data.profile.scholar }}" target="_blank" rel="noopener">Google Scholar ↗</a>{% endif %}
+    <a href="https://github.com/{{ site.data.profile.github }}" target="_blank" rel="noopener">GitHub ↗</a>
+    {% if site.data.profile.orcid and site.data.profile.orcid != '' %}<a href="{{ site.data.profile.orcid }}" target="_blank" rel="noopener">ORCID ↗</a>{% endif %}
+  </div>
+</div>

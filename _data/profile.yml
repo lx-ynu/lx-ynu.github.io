@@ -1,0 +1,22 @@
+name_en: "Xiang Liu"
+name_zh: ""
+position_en: "Ph.D. Candidate"
+affiliation_en: "Yunnan University"
+email: ""
+github: "lx-ynu"
+scholar: ""
+orcid: ""
+avatar: ""
+positioning_en: "Multimodal Visual Object Tracking"
+
+bio_en: >-
+  Xiang Liu is a Ph.D. candidate at Yunnan University. His research focuses on
+  computer vision, visual object tracking, and multimodal learning, with a
+  particular interest in RGB-T tracking and cross-modal representation learning.
+
+research_areas_en:
+  - "RGB-T Object Tracking"
+  - "Multimodal Visual Object Tracking"
+  - "RGB-Event Object Tracking"
+  - "Vision-Language Tracking"
+  - "Multimodal Representation Learning"

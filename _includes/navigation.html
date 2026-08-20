@@ -1,0 +1,12 @@
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      {% for item in site.navigation %}
+        {% assign current = false %}
+        {% if page.url == item.url %}{% assign current = true %}{% endif %}
+        <a class="nav-link{% if current %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

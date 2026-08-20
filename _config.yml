@@ -1,0 +1,37 @@
+title: Xiang Liu
+description: Multimodal Visual Object Tracking
+url: "https://lx-ynu.github.io"
+baseurl: ""
+timezone: Asia/Shanghai
+
+owner:
+  name: Xiang Liu
+  avatar: ""
+  email: ""
+  github: lx-ynu
+  scholar: ""
+  orcid: ""
+  affiliation: Yunnan University
+  position: Ph.D. Candidate
+
+navigation:
+  - title: About
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: CV
+    url: /cv/
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - ACKNOWLEDGEMENTS.md
